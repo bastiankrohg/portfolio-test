@@ -12,7 +12,7 @@ import { Element } from "react-scroll";
 import { ThemeProvider } from "styled-components";
 // Data
 //import { navLogo } from "./data";
-import navLogo from "./images/home.svg";
+import navLogo from "./images/alpha-b.svg";
 
 // Components
 import { Container } from "react-bootstrap";
