@@ -5,20 +5,20 @@ import { Icon } from "@iconify/react";
 // import newLogo from "./images/yourFileName"
 
 // Projects Images (add your images to the images directory and import below)
-import Logo from "./images/logo.svg";
+//import Logo from "./images/logo.svg";
+import Logo_arduino from "./images/arduino.svg";
+import Logo_trottinette from "./images/scooter.svg";
+import Logo_gh_page from "./images/GH.svg";
+
 
 // Hero Images (add your images to the /images directory with the same names)
-import HeroLight from "./images/hero-light.jpg";
-import HeroDark from "./images/hero-dark.jpg";
+import HeroLight from "./images/hero-light-2.jpg";
+import HeroDark from "./images/hero-dark-2.jpg";
 // If you change the import names above then you need to change the export names below
 export { HeroLight as Light };
 export { HeroDark as Dark };
 
-/* START HERE
- **************************************************************
-  Add your GitHub username (string - "YourUsername") below.
-*/
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "bastiankrohg";
 
 // Navbar Logo image
 export const navLogo = undefined;
@@ -31,7 +31,7 @@ export const Blog = <Icon icon="ph:link-bold" />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
+  "I am a dual-master's degree student @ INSA de Toulouse & Toulouse School of Management,specializing in Embedded Systems Engineering and International Management. I am currently doing an internship in International Business Development @ Innovation Norway Silicon Valley.";
 
 /* Skills
  ************************************************************** 
@@ -40,46 +40,31 @@ export const moreInfo =
 export const skillData = [
   {
     id: 1,
-    skill: <Icon icon="mdi:language-html5" className="display-4" />,
-    name: "HTML5",
+    skill: <Icon icon="flat-color-icons:electronics" className="display-4" />,
+    name: "Electronics",
   },
   {
     id: 2,
-    skill: <Icon icon="ion:logo-css3" className="display-4" />,
-    name: "CSS3",
+    skill: <Icon icon="fad:loop" className="display-4" />,
+    name: "Controls Systems",
   },
   {
     id: 3,
-    skill: <Icon icon="fa6-brands:js" className="display-4" />,
-    name: "JavaScript",
+    skill: <Icon icon="solar:programming-bold" className="display-4" />,
+    name: "Programming",
   },
   {
     id: 4,
-    skill: <Icon icon="ri:bootstrap-fill" className="display-4" />,
-    name: "BootStrap",
+    skill: <Icon icon="ic:baseline-security" className="display-4" />,
+    name: "Security",
   },
   {
     id: 5,
-    skill: <Icon icon="mdi:react" className="display-4" />,
-    name: "React",
+    skill: <Icon icon="fluent:brain-circuit-24-regular" className="display-4" />,
+    name: "Machine Learning",
   },
   {
     id: 6,
-    skill: <Icon icon="file-icons:styledcomponents" className="display-4" />,
-    name: "Styled Components",
-  },
-  {
-    id: 7,
-    skill: <Icon icon="akar-icons:redux-fill" className="display-4" />,
-    name: "Redux",
-  },
-  {
-    id: 8,
-    skill: <Icon icon="bi:git" className="display-4" />,
-    name: "Git",
-  },
-  {
-    id: 9,
     skill: <Icon icon="fa6-brands:square-github" className="display-4" />,
     name: "GitHub",
   },
@@ -92,13 +77,21 @@ export const resume = null;
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["example-1", "example-2", "example-3"];
+export const filteredProjects = ["trottinette", "arduino", "bastiankrohg.github.io"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 7-8)
 export const projectCardImages = [
   {
-    name: "example-1",
-    image: Logo,
+    name: "arduino",
+    image: Logo_arduino,
+  },
+  {
+    name: "trottinette",
+    image: Logo_trottinette,
+  },
+  {
+    name: "bastiankrohg.github.io",
+    image: Logo_gh_page,
   },
 ];
 
@@ -107,4 +100,4 @@ export const projectCardImages = [
   Add your formspree endpoint below.
   https://formspree.io/
 */
-export const formspreeUrl = "https://formspree.io/f/YourEndpoint";
+export const formspreeUrl = "https://formspree.io/f/mnqkzpqn";

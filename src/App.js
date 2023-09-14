@@ -11,7 +11,9 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import { Element } from "react-scroll";
 import { ThemeProvider } from "styled-components";
 // Data
-import { navLogo } from "./data";
+//import { navLogo } from "./data";
+import navLogo from "./images/home.svg";
+
 // Components
 import { Container } from "react-bootstrap";
 import { Loading } from "./components/globalStyledComponents";
